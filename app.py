@@ -1,4 +1,10 @@
 import streamlit as st
+import os
+import subprocess
+
+# Install scikit-learn
+subprocess.run(['pip', 'install', 'scikit-learn'])
+
 import numpy as np 
 from sklearn.preprocessing import StandardScaler
 import joblib
